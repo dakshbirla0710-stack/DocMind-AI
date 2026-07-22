@@ -1,0 +1,20 @@
+# Python
+backend/__pycache__/
+backend/uploads/
+backend/.env
+*.pyc
+
+# Vector database
+*.pkl
+*.index
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
