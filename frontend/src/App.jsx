@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import "./App.css";
-import Header from "./components/Header";
+import Header from "./components/header";
 import ChatBox from "./components/ChatBox";
 import UploadSection from "./components/UploadSection";
 import QuestionSection from "./components/QuestionSection";
