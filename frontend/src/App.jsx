@@ -42,7 +42,7 @@ const askPDF = async () => {
   setLoading(true);
 
   const response = await axios.post(
-  "http://127.0.0.1:8000/ask-pdf",
+  `${import.meta.env.VITE_API_URL}/ask-pdf`,
   {
     prompt: question,
     history: messages,
