@@ -1,9 +1,10 @@
 import fitz
 import shutil
 from fastapi import UploadFile
-
+import os
 def extract_text_from_pdf(file: UploadFile):
-
+    os.makedirs("uploads", exist_ok=True)
+    
     file_path = f"uploads/{file.filename}"
 
     with open(file_path, "wb") as buffer:
