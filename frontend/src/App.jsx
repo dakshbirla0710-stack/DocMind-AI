@@ -19,9 +19,9 @@ const formData = new FormData();
   formData.append("file", file);
 
   const response = await axios.post(
-    "http://127.0.0.1:8000/upload-pdf",   
-    formData
-  );
+  `${import.meta.env.VITE_API_URL}/upload-pdf`,
+  formData
+);
 
   console.log(response.data);
   setUploaded(true);
