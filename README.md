@@ -1,18 +1,18 @@
 # 📄 DocMind AI
 
-An AI-powered PDF chatbot that allows users to upload PDF documents and ask natural language questions. The application retrieves the most relevant sections from the document using vector search and generates accurate answers using Google's Gemini AI.
+An AI-powered PDF Research Assistant that allows users to upload PDF documents and ask questions about their content using semantic search and Google Gemini.
 
 ---
 
 ## 🚀 Features
 
-- 📂 Upload PDF documents
-- 🤖 Ask questions in natural language
-- ⚡ Fast semantic search using FAISS
-- 🧠 Google Gemini AI integration
-- 💬 Chat-style interface
-- 📝 Markdown response rendering
-- 📋 One-click copy responses
+- 📄 Upload PDF documents
+- ✂️ Automatic text extraction
+- 🧩 Intelligent text chunking
+- 🧠 Embedding generation
+- 🔎 Semantic search using FAISS
+- 🤖 AI-powered answers using Google Gemini
+- 💬 Clean chat interface
 
 ---
 
@@ -21,54 +21,57 @@ An AI-powered PDF chatbot that allows users to upload PDF documents and ask natu
 ### Frontend
 - React
 - Axios
-- React Markdown
 - CSS
 
 ### Backend
 - FastAPI
-- Google Gemini API
+- Python
 - FAISS
+- Google Gemini API
 - PyMuPDF
-- LangChain Text Splitter
-
----
-
-## ⚙️ How It Works
-
-1. User uploads a PDF.
-2. Text is extracted from the document.
-3. The text is divided into smaller chunks.
-4. Embeddings are generated for each chunk.
-5. FAISS stores the vectors for fast retrieval.
-6. When a question is asked:
-   - The question is embedded.
-   - Relevant chunks are retrieved.
-   - Gemini generates an answer using only the retrieved context.
 
 ---
 
 ## 📂 Project Structure
 
+DocMind-AI/
+│
+├── frontend/
+├── backend/
+├── requirements.txt
+└── README.md
+
+---
+
+## ⚙️ Installation
+
+### Clone
+
+```bash
+git clone https://github.com/dakshbirla0710-stack/DocMind-AI.git
 ```
-DocMind-AI
-│
-├── backend
-│   ├── services
-│   ├── uploads
-│   └── main.py
-│
-├── frontend
-│   ├── src
-│   └── components
-│
-└── requirements.txt
+
+### Backend
+
+```bash
+cd backend
+pip install -r ../requirements.txt
+uvicorn main:app --reload
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
 ```
 
 ---
 
 ## 📸 Screenshots
 
-(Add screenshots after deployment.)
+(Add screenshots here)
 
 ---
 
