@@ -16,7 +16,6 @@ function AnswerBox({ answer, loading }) {
           <p>{answer}</p>
         )}
       </div>
-
     </div>
   );
 }
