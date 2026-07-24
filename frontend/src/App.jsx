@@ -14,8 +14,9 @@ const [loading, setLoading] = useState(false);
 const [uploaded, setUploaded] = useState(false);
 const [error, setError] = useState("");
 const uploadPDF = async () => {
-const formData = new FormData();
+  console.log(import.meta.env.VITE_API_URL);
 
+  const formData = new FormData();
   formData.append("file", file);
 
   const response = await axios.post(
