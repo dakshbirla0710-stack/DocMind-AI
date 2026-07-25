@@ -70,9 +70,23 @@ npm run dev
 
 ## 📸 Screenshots
 
-(Add screenshots here)
+### 🏠 Home Page
+
+![Home](screenshots/home.png)
 
 ---
+
+### 📄 PDF Uploaded
+
+![Upload](screenshots/upload.png)
+
+---
+
+### 🤖 AI Answer
+
+![Chat](screenshots/chat.png)
+
+
 
 ## 👨‍💻 Author
 
