@@ -40,7 +40,6 @@ DocMind-AI/
 ├── backend/
 ├── requirements.txt
 └── README.md
-
 ---
 
 ## ⚙️ Installation
