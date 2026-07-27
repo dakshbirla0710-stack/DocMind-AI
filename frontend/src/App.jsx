@@ -23,7 +23,6 @@ const uploadPDF = async () => {
   `${import.meta.env.VITE_API_URL}/upload-pdf`,
   formData
 );
-
   console.log(response.data);
   setUploaded(true);
 
