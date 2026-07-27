@@ -6,7 +6,7 @@ An AI-powered PDF Research Assistant that enables users to upload PDF documents,
 
 ## 🚀 Live Demo
 
-🌐 **Frontend:** https://your-vercel-url.vercel.app
+🌐 **Frontend:** https://docmind-ai-daksh.vercel.app/
 
 ⚙️ **Backend API (Swagger):** https://docmind-ai-rqm9.onrender.com/docs
 
